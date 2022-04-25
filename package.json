@@ -2,10 +2,17 @@
   "name": "vcs-project",
   "version": "1.0.0",
   "description": "just for fun ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ispooya",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
