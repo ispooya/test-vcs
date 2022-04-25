@@ -5,5 +5,5 @@ const port = 3000;
 app.get("/commit", (req, res) => {});
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`VCS app listening on port ${port}`);
 });
